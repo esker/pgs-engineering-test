@@ -1,0 +1,91 @@
+{
+    "id": "6f556dd4-77bf-4bb8-9b63-38dbb4625334",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 128,
+        "snapHeight": 128,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT"
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "9761132f-4fb7-4e9f-8cca-053449fe2829",
+            "label": "rectangle_1",
+            "components": [],
+            "x": 518,
+            "y": 305,
+            "scaleX": 4.244992177953161,
+            "scaleY": 2.049354714015962,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Text",
+            "id": "e2dc36d1-9489-4dc1-95cc-31df4e0107a6",
+            "label": "dealCards_text",
+            "components": [],
+            "x": 59,
+            "y": 282,
+            "text": "Deal Cards"
+        },
+        {
+            "type": "Sprite",
+            "id": "c6b0f791-e814-4ec5-9d53-895843650200",
+            "label": "deck_sprite",
+            "components": [],
+            "texture": {
+                "key": "cards",
+                "frame": "back"
+            },
+            "x": 396,
+            "y": 292,
+            "scaleX": 0.37137935898347363,
+            "scaleY": 0.3542052051861394
+        },
+        {
+            "type": "Text",
+            "id": "31be87e7-ade8-4dbf-a3cd-2d2c3070b8eb",
+            "label": "cardsRemaining_text",
+            "components": [],
+            "x": 389,
+            "y": 383,
+            "text": "Cards Remaining",
+            "color": "#0b0b0bff"
+        },
+        {
+            "type": "Sprite",
+            "id": "99a49e33-3126-4d28-a28b-6b722cd03b79",
+            "label": "cardPile",
+            "components": [],
+            "texture": {},
+            "x": 559,
+            "y": 293,
+            "scaleX": 3.062500079446789,
+            "scaleY": 3.8749998849520755
+        },
+        {
+            "type": "Text",
+            "id": "f0f803b9-4304-427e-b9f0-4e83e6cff2b7",
+            "label": "gameOver_text",
+            "components": [],
+            "x": 370,
+            "y": 247,
+            "scaleX": 1.5862068965517242,
+            "scaleY": 2.799809717956295,
+            "text": "GAME OVER",
+            "fontSize": "26px",
+            "color": "#f90000ff"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
