@@ -15,10 +15,6 @@ export default class PushOnClick extends UserComponent {
 
 		this.gameObject = gameObject;
 		(gameObject as any)["__PushOnClick"] = this;
-
-		/* START-USER-CTR-CODE */
-		// Write your code here.
-		/* END-USER-CTR-CODE */
 	}
 
 	static getComponent(gameObject: Phaser.GameObjects.Image): PushOnClick {
